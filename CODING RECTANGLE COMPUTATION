@@ -1,0 +1,19 @@
+package numericalData;
+
+public class RectangleComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double length=8.9;
+		double width=2.3;
+		double area=length*width;
+		double peri=2*(length+width);
+		
+		System.out.printf ("The area is %.2f" , area);
+		System.out.println();
+		System.out.printf ("The perimeter is %.2f" , peri);
+		
+	}
+
+}
